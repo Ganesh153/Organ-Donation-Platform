@@ -4,7 +4,7 @@ A decentralized web-based platform built on Ethereum blockchain that facilitates
 
 ## 📋 Project Overview
 
-This is a **Final Year B.Tech Project** that leverages blockchain technology to enhance transparency and trust in organ donation systems. The platform addresses critical challenges including:
+This is my **Final Year B.Tech Project** that leverages blockchain technology to enhance transparency and trust in organ donation systems. The platform addresses critical challenges including:
 
 - **Lack of transparency** in donor-recipient matching
 - **Trust issues** between patients and medical professionals
@@ -390,77 +390,9 @@ npm install
 - `getCountOfDonors()` - Total donors
 - `getCountOfPatients()` - Total patients
 
-## 🌐 Deployment
-
-### Deploy to Testnet (Ropsten/Goerli)
-1. Configure Infura API key in `truffle-config.js`
-2. Set up wallet with test Ether
-3. Run: `truffle migrate --network ropsten`
-4. Update contract address in `app/src/main.js`
-
-### Deploy to Mainnet
-1. Ensure contract is audited and tested
-2. Configure mainnet in `truffle-config.js`
-3. Run: `truffle migrate --network mainnet`
-4. Deploy frontend to production hosting (Netlify, Vercel, etc.)
-
-## 📚 Documentation
-
-For detailed project explanation, see:
-- **PROJECT_EXPLANATION.txt** - Complete project overview
-- **BLOCKCHAIN_INTERVIEW_QA.txt** - Interview preparation guide
-
-## 👥 Team
-
-**Project Authors:**
-- Rahul Sabinkar
-- Bongurala Sai Manikanta Teja
-- Boini Sai Kumar
-- Gummadi Sai Kumar
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For issues or questions:
-1. Check the Troubleshooting section above
-2. Review smart contract functions documentation
-3. Check Ganache console for transaction details
-4. Review browser console for frontend errors
-
-## 🎯 Future Enhancements
-
-- User authentication and role-based access control
-- Medical history tracking on blockchain
-- Insurance integration
-- Organ preservation time tracking
-- Transplant outcome recording
-- Layer 2 scaling solutions (Polygon, Arbitrum)
-- IPFS integration for medical documents
-- Multi-signature approval for critical operations
-- Integration with hospital management systems
-
-## 📊 Project Statistics
-
-- **Smart Contracts:** 1 (DonorContract.sol)
-- **Frontend Pages:** 10+
-- **Blockchain Network:** Ethereum
-- **Development Framework:** Truffle
-- **Frontend Framework:** Vanilla JavaScript + Bootstrap
-
----
-
 **Last Updated:** February 2026  
 **Status:** Active Development  
 **Version:** 1.0.0
