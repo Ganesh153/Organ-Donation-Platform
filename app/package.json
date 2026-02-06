@@ -7,7 +7,7 @@
     "build": "webpack--openssl-legacy-provider build",
     "dev": "webpack-dev-server"
   },
-  "author": "Rahul Sabinkar, Bongurala Sai Manikanta Teja, Boini Sai Kumar, Gummadi Sai Kumar",
+  "author": "Leela Sri SaiGanesh Patchipulusu, Pavan Parjapnoar",
   "license": "MIT",
   "devDependencies": {
     "copy-webpack-plugin": "^5.0.5",
